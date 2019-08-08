@@ -2,6 +2,11 @@
 namespace app\console\tool;
 use app\console\target\secret;
 
+/**
+ * 用于生产大小写字母和数字，无特殊字符，一般可用于url赋值加密
+ * Class secretLetter
+ * @package app\console\tool
+ */
 class secretLetter implements secret
 {
     //密钥
